@@ -1,0 +1,118 @@
+*{
+    margin:opx;
+    padding: opx;
+}
+.out{
+    border: solid 1px;
+    height: 160px;
+    display: flex;
+    margin: 10px;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 160px;
+    z-index: index 0;
+}
+#in1{
+    width: 160px;
+}
+#in2{
+    width: 1600px;
+    text-align: center;
+    background-color:burlywood;
+    height: 200px;
+}
+#in3{
+    width: 160px;
+}
+#clgname{
+    font-size: 50px;
+    color: green;
+}
+#text1{
+    font-size: 25px;
+    color: blue;
+}
+#scrolltext{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 180px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+ul li ul li{
+    display: none;
+}
+ul li:lover ul li{
+    display: block;
+}
+ul li:lover {
+    background-color: burlywood;
+
+}
+.outbox{
+    border: solid 1px hidden;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 400px;
+}
+#inbox1{
+    width: 700px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:  400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes imgchange{
+    0%{
+        background-image: url();
+    }
+    20%{
+        background-image: url();
+    }
+    30%{
+        background-image: url();
+    }
+    40%{
+        background-image: url();
+    }
+}
+#inbox2,#inbox3{
+    width: 350px;
+    text-align: center;
+    color: blue;
+}
+
